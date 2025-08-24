@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noastra collection</title>
+    <!-- font awsome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Tailwind CSS CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="mx-5">
+    <!-- collection -->
+    <section>
+        <!-- Nav bar -->
+        <div>
+            <div class="my-5 flex p-3 border-b-2 border-gray-100">
+                <div class="flex gap-3">
+                    <img src="./img/instagram (1).png" alt="instagram" class="w-6 h-6">
+                    <img src="./img/twitter (2).png" alt="twitter" class="w-6 h-6">
+                    
+
+                </div>
+
+                <div class=" text-center flex-1">
+                    <p>Free shipping this month order over $100</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Searchbar -->
+        <div class="flex justify-between">
+            <p class="font-serif text-4xl">Noastra</p>
+
+             <div>
+            <ul class="flex gap-10 justify-center p-5 text-md font-semibold">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./product.html">Produts</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+            <div class="flex gap-4">
+                <img src="./img/trolley.png" alt="trolly" class="w-7 h-7">
+                <img src="./img/user.png" alt="user" class="w-7 h-7">
+            </div>
+        </div>
+
+
+       
+    </section>
+
+    <!-- contact -->
+      <section class="m-10 bg-white mx-auto rounded-3xl shadow-lg shadow-gray-400" style="width: fit-content;">
+
+        <h1 class=" text-center text-2xl p-5 border-b-2  border-b-gray-600">Contact Us</h1>
+        <div class="m-4">
+
+            <form action="/send_Email" method="post" id="contactForm">
+
+
+                <input id="name" type="text" name="name" placeholder="Enter your first & Last name"
+                    class="w-96 p-2 text-sm  m-3 border border-blue-300  rounded-lg"> <br>
+
+
+                <input id="mobile" name="number" type="number" placeholder="Enter your Mobile Number"
+                    class="w-11/12 p-2 text-sm  m-3 border border-blue-300  rounded-lg"> <br>
+
+
+                <input id="email" name="email" type="email" placeholder="Enter name21@gmail.com"
+                    class="w-11/12 p-2 text-sm  m-3 border border-blue-300  rounded-lg"> <br>
+
+
+                <textarea id="msg" name="feedback" type="text" placeholder="Give your Queries or Feedback"
+                    class="w-11/12 p-2 text-sm  m-3 border border-blue-300  rounded-lg"></textarea>
+
+                <div class="flex justify-end">
+                    <button id="send" type="submit" value="send"
+                        class="bg-red-400 text-white hover:bg-white hover:border hover:border-red-700 hover:text-red-600 p-2 rounded-lg m-6  w-80 mx-auto">send</button>
+                </div>
+            </form>
+        </div>
+
+
+
+    </section>
+
+    <!-- foooter -->
+    <section>
+        <div class="bg-black text-gray-700 ">
+            <div class="flex justify-between px-20">
+                <div>
+                    <p class="text-5xl text-gray-500 font-serif pt-20">Noastra</p>
+                </div>
+
+                <div class="w-96 ">
+                    <h1 class="text-xl font-serif pt-10">Join our News letter</h1>
+                    <p class="text-start py-3">Signup for our email newspaper to get exclusive discounts, updates, and
+                        more</p>
+                    <div class="mx-auto">
+
+                        <input type="text" placeholder="text here..." class="p-2 outline-none  bg-black border border-gray-700">
+                        <button class="bg-gray-600 text-white  p-2 rounded-lg">Subscribe</button>
+
+                    </div>
+                </div>
+            </div>
+            <p class="text-center">&copy;2025 Nostra.com</p>
+        </div>
+
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
